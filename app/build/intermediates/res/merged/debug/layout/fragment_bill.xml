@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bill_switcher_spinner"
+        android:layout_gravity="center_horizontal"
+        android:prompt="@string/bills_spinner_prompt"/>
+    <ListView
+        android:id="@+id/bill_device_listView"
+        android:layout_width="match_parent"
+        android:divider="@color/lists_purple"
+        android:dividerHeight="1dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+

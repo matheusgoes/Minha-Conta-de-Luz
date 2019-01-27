@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/selector_button_standard.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/2.0/res/drawable-v21/selector_button_standard.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/selector_button_kitkat.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/2.0/res/drawable-v21/selector_button_kitkat.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/selector_button_lollipop.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/2.0/res/drawable-v21/selector_button_lollipop.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

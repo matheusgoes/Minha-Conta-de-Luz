@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Minha Conta de Luz</string>
+
+    <string name="title_section1">Minhas contas</string>
+    <string name="title_section2">Meus dispositivos</string>
+    <string name="title_section3">Meus cômodos</string>
+    <string name="title_section4">Medidor</string>
+    <string name="title_section5">Dicas</string>
+    <string name="title_section6">Ajuda</string>
+    <string name="title_section7">Sobre</string>
+    <string name="title_section8">Configurações</string>
+    <string name="title_subsection1">Visualização</string>
+    <string name="title_subsection2">Novo</string>
+    <string name="title_subsection3">Alterar dispositivo</string>
+    <string name="title_subsection4">Alterar cômodo</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="my_devices">Meus dispositivos:</string>
+    <string name="general_preferences_text">Configurações gerais</string>
+
+
+    <string name="calculation_preferences_text">Configurações de execução de cálculo</string>
+    <string name="calculation_preferences_day_title">Dia</string>
+    <string name="calculation_preferences_day_dialog_title">Dia</string>
+    <string name="calculation_preferences_day_summary">Selecione o dia do mês</string>
+    <string name="calculation_preferences_time_title">Horário</string>
+    <string name="calculation_preferences_time_summary">Selecione o horário</string>
+    <string name="calculation_preferences_time_dialog_title">Horário</string>
+    <string name="calculation_preferences_Notifications">Notificações</string>
+    <string name="calculation_preferences_Notifications_summary">Notificações</string>
+    <string name="kwh_preferences_title">kW/h</string>
+    <string name="kwh_preferences_summary">Valor do kW/h</string>
+    <string name="volts_preferences_title">Tensão</string>
+    <string name="volts_preferences_summary">Valor padrão de tensão</string>
+
+    <string name="additional_bills_preferences_title">Tarifas adicionais</string>
+    <string name="red_flag_preferences_title">Cor da bandeira</string>
+    <string name="red_flag_summary">Desmarcado: Bandeira Amarela. Marcado: Bandeira vermelha.</string>
+
+    <string name="public_bills_checkbox_preferences_title">Adicionar impostos de iluminação pública</string>
+    <string name="public_illumination_preferences_title">Iluminação publica</string>
+    <string name="public_illumination_preferences_summary">Valor do imposto de iluminação pública</string>
+
+    <string name="btn_next">Próximo</string>
+    <string name="btn_previous">Anterior</string>
+    <string name="add_new_device">Adicionar</string>
+    <string name="edit_device">Alterar</string>
+    <string name="new_device">Novo</string>
+    <string name="finish">Finalizar</string>
+    <string name="settings_price">Preço do kW/h: R$ </string>
+    <string name="spinner_prompt">selecione o cômodo</string>
+    <string name="bills_spinner_prompt">selecione a conta</string>
+
+
+
+    <string name="addDevice"> Adicionar Dispositivo</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_calc_bill">Minhas contas</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string-array name="suggestions_array">
+        <item>Ar-Condicionado</item>
+        <item>Abajour</item>
+        <item>Aspirador de Pó</item>
+        <item>Aparelho de som</item>
+        <item>Aquecedor</item>
+        <item>Banheira</item>
+        <item>Bateria</item>
+        <item>Batedeira</item>
+        <item>Blu-ray</item>
+        <item>Carregador de celular</item>
+        <item>Carregador de câmera</item>
+        <item>Câmera</item>
+        <item>Câmera de segurança</item>
+        <item>Celular</item>
+        <item>Cafeteira</item>
+        <item>Chuveiro Elétrico</item>
+        <item>Computador</item>
+        <item>Datashow</item>
+        <item>Desktop</item>
+        <item>DVD</item>
+        <item>Exaustor</item>
+        <item>Ferro</item>
+        <item>Freezer</item>
+        <item>Fogão</item>
+        <item>Forno Elétrico</item>
+        <item>Geladeira</item>
+        <item>Impressora</item>
+        <item>iPad</item>
+        <item>iPhone</item>
+        <item>iPod</item>
+        <item>Lâmpada</item>
+        <item>Lâmpada de Led</item>
+        <item>Laptop</item>
+        <item>Liquidificador</item>
+        <item>Luz</item>
+        <item>Microondas</item>
+        <item>Máquina de lavar roupas</item>
+        <item>Notebook</item>
+        <item>Projetor</item>
+        <item>Rádio</item>
+        <item>Receptor de TV</item>
+        <item>Secador de cabelo</item>
+        <item>Smartphone</item>
+        <item>Som</item>
+        <item>Scanner</item>
+        <item>Tablet</item>
+        <item>Torradeira</item>
+        <item>TV</item>
+        <item>Telefone</item>
+        <item>Televisão</item>
+        <item>Televisor</item>
+        <item>Ventilador</item>
+        <item>Vídeo-game</item>
+        <item>Vídeo game</item>
+        <item>PlayStation</item>
+        <item>Xbox</item>
+        <item>Outro (escreva)</item>
+    </string-array>
+
+    <string-array name="suggestions_array_rooms">
+        <item>Área de serviço</item>
+        <item>Corredor</item>
+        <item>Banheiro</item>
+        <item>Cozinha</item>
+        <item>Quarto</item>
+        <item>Garagem</item>
+        <item>Sala de estar</item>
+        <item>Sala de jantar</item>
+        <item>Sala</item>
+    </string-array>
+
+    <string name="title_activity_splash_screen">Minha Conta de Luz</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

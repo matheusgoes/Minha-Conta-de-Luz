@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-analytics-7.5.0_0eab89f3d8474a5e661c84543b3ae91b87453460.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/android-support-v4-preferencefragment-master/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d03698b39dcf4ce143564b7121d65ab05cd7dbaa">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-android-support-v4-preferencefragment-master-1.0.0_0c1dcdea4e5e1f66605ecb431ad090b55a28c9fb.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/internal_impl-24.0.0_f34e0d268b9034ecdc5179513c66e9e9a79a2c52.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.2.1_12517e74f4af5f3c3684f28ba4c271f956a2230b.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-7.5.0_7a79cb0abd2fdc4c57bb05c32ba001b5489952be.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-24.0.0_ca1ca9d18ec82f5ef77fc632363647b81dae0995.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-24.0.0_ddb7e391eae01de3b6f0bae1ca2c915fe0e97da5.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-7.5.0_f91d7eca1b47c658aefba2c4af955b814c65207f.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.github.johnpersano/supertoasts/2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8f30f0d083aa1d28b5fd24626c2449588e15ed70">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.github.johnpersano-supertoasts-2.0_b0729c1fd1630b2fef2cda1effeb243b1071291d.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-24.0.0_0981e1b371de8e0c9d7ac6c24a7a7d0ec7010fe7.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/libs/mpandroidchartlibrary-2-1-1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="da090aabc7b8aa0547c116e1e5212cbf3a5f3b33">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/mpandroidchartlibrary-2-1-1_87eff1b6055fa4aab2f93b35a1cf0e95b0741f7e.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-24.0.0_4c59b4a6731632809248bcaa497e4c8f230456a0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/design/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/com.android.support-design-23.2.1_79c91589eb659866d8199a47ae0cc11a8f0f773e.jar" />
+    </item>
+    <item
+        jar="/Users/matheusgoes/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/support-annotations-24.0.0_5e92a23720ce8e5406f7670ef2a933669a9d0eed.jar" />
+    </item>
+    <item
+        jar="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/pre-dexed/release/nineoldandroids-2.4.0_7c63d23023ea23212750edee6411cca28c0c618e.jar" />
+    </item>
+
+</items>

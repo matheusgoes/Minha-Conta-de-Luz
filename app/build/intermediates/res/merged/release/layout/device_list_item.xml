@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <ImageView
+        android:id="@+id/device_update_list_image"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nome"
+        android:textStyle="bold"
+        android:id="@+id/device_update_list_name"
+        android:layout_alignTop="@+id/device_update_list_image"
+        android:layout_toRightOf="@+id/device_update_list_image"
+        android:layout_toEndOf="@+id/device_update_list_image"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/AppThemeColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Potencia"
+        android:id="@+id/device_update_list_pot"
+        android:layout_below="@+id/device_update_list_name"
+        android:layout_toRightOf="@+id/device_update_list_image"
+        android:layout_toEndOf="@+id/device_update_list_image"
+        android:textColor="@color/AppThemeColor"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Tempo médio de uso diário"
+        android:id="@+id/device_update_list_time"
+        android:layout_below="@+id/device_update_list_pot"
+        android:layout_toRightOf="@+id/device_update_list_image"
+        android:layout_toEndOf="@+id/device_update_list_image"
+        android:textColor="@color/AppThemeColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cômodo"
+        android:id="@+id/device_update_list_comodo"
+        android:layout_below="@id/device_update_list_time"
+        android:layout_toRightOf="@+id/device_update_list_image"
+        android:layout_toEndOf="@+id/device_update_list_image"
+        android:textColor="@color/AppThemeColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Quantidade"
+        android:id="@+id/device_update_list_number"
+        android:layout_below="@id/device_update_list_comodo"
+        android:layout_toRightOf="@+id/device_update_list_image"
+        android:layout_toEndOf="@+id/device_update_list_image"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/AppThemeColor"
+        />
+</RelativeLayout>

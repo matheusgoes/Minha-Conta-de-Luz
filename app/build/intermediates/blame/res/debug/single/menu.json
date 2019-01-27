@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/menu/drawer_items.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/menu/drawer_items.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/menu/menu_splash_screen.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/menu/menu_splash_screen.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/menu/global.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/menu/global.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/menu/main.xml"
+    }
+]

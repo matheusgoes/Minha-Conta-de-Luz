@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Este aplicativo tem por objetivo auxíliar na organização do orçamento, bem como conscientizar e informar sobre o consumo de energia elétrica. Lembramos que os dados apresentados são estimativas."
+                android:id="@+id/textView10"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lists_purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Os ícones deste aplicativo foram obtidos no website Icons8."
+                android:id="@+id/textView11"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lists_purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Os valores pré-definidos são estimativas e foram obtidos atráves de pesquisa na internet"
+                android:id="@+id/textView12"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Não nos responsabilizamos por má interpretação dos dados."
+                android:id="@+id/textView13"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lists_purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gostou do aplicativo?"
+                android:id="@+id/textView14"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Avaliar"
+                android:onClick="onAvaliationClick"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lists_purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ajude-nos na divulgação"
+                android:id="@+id/textView15"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Compartilhar"
+                android:onClick="onShareButtonClick"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lists_purple"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Aplicativo '9º Digito'"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image9digito"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Outro app do mesmo desenvolvedor. Adicione rapidamente o 9º digito em todos os seus contatos."
+                android:id="@+id/textView16"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="verNaLoja"
+                android:text="Ver na loja" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

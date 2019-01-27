@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/color-v23/abc_tint_switch_thumb.xml"
+    }
+]

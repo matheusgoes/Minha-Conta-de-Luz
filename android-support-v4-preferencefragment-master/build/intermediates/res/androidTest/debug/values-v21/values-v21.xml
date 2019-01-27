@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/matheusgoes/OneDrive/Informática/AndroidStudioProjects/MinhaContadeLuz/android-support-v4-preferencefragment-master/build/intermediates/bundles/debug/res/values-v21/values-v21.xml -->
+    <eat-comment/>
+    <dimen name="preference_fragment_padding_side">8dp</dimen>
+</resources>

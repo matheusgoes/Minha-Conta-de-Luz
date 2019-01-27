@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/xml/app_tracker.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/xml/app_tracker.xml"
+    },
+    {
+        "merged": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/res/merged/debug/xml/preference.xml",
+        "source": "/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/src/main/res/xml/preference.xml"
+    }
+]

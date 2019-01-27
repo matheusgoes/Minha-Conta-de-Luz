@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general_preferences_text">
+        <EditTextPreference
+            android:key="value_kwh"
+            android:title="@string/kwh_preferences_title"
+            android:summary="@string/kwh_preferences_summary"
+            android:dialogTitle="@string/kwh_preferences_summary"
+            android:inputType="numberDecimal"
+            android:defaultValue="0.49231"
+            />
+
+        <ListPreference
+            android:key="volts"
+            android:title="@string/volts_preferences_title"
+            android:summary="@string/volts_preferences_summary"
+            android:dialogTitle="@string/volts_preferences_summary"
+            android:entries="@array/preferences_list_volts"
+            android:entryValues="@array/preferences_list_volts_data"
+            />
+
+        <CheckBoxPreference
+            android:key="pref_checkbox_additional_bill"
+            android:title="@string/additional_bills_preferences_title"
+            android:defaultValue="false"
+            />
+        <CheckBoxPreference
+            android:key="pref_checkbox_red_flag"
+            android:dependency="pref_checkbox_additional_bill"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="@string/red_flag_preferences_title"
+            android:summary="@string/red_flag_summary"
+            android:defaultValue="false"
+            />
+
+        <CheckBoxPreference
+            android:key="pref_checkbox_public_illumination"
+            android:title="@string/public_bills_checkbox_preferences_title"
+            android:defaultValue="false"
+            />
+        <EditTextPreference
+            android:key="value_public_illumination"
+            android:dependency="pref_checkbox_public_illumination"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="@string/public_illumination_preferences_title"
+            android:summary="@string/public_illumination_preferences_summary"
+            android:dialogTitle="@string/public_illumination_preferences_summary"
+            android:inputType="numberDecimal"
+            android:defaultValue="11"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/calculation_preferences_text">
+
+        <!-- <EditTextPreference
+            android:key="day"
+            android:title="@string/calculation_preferences_day_title"
+            android:summary="@string/calculation_preferences_day_summary"
+            android:dialogTitle="@string/calculation_preferences_day_dialog_title"
+            android:inputType="number"
+            /> -->
+        <Preference
+            android:key="day"
+            android:title="@string/calculation_preferences_day_title"
+            android:summary="@string/calculation_preferences_day_summary"
+            />
+
+
+        <CheckBoxPreference
+            android:key="set_notifications"
+            android:title="@string/calculation_preferences_Notifications"
+            android:summary="@string/calculation_preferences_Notifications_summary"
+            android:defaultValue="true"
+            android:onClick="notificationsPreferencesCheckboxOnClick"
+            />
+
+        <!--  <CheckBoxPreference
+            android:key="pref_checkbox_child"
+            android:dependency="pref_checkbox"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:title="explorer world"
+            android:summary="expore your world"
+            android:defaultValue="false"
+            /> -->
+    </PreferenceCategory>
+
+    <!-- <PreferenceCategory
+        android:title="Intents">
+        <PreferenceScreen
+            android:title="Headers Preferences"
+            android:summary="use intents to see headers">
+            <intent
+                android:targetPackage="goes.com.br.minhacontadeluz"
+                android:targetClass="goes.com.br.minhacontadeluz.SettingsActivity"/>
+        </PreferenceScreen>
+    </PreferenceCategory> -->
+</PreferenceScreen>

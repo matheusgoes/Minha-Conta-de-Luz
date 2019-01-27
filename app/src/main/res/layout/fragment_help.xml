@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:orientation="vertical" android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Como é feito o cálculo do custo? "
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="O cálculo do consumo (C) de cada eletrodoméstico é realizado pelo produto entre o tempo de uso diário(T), período de dias que o eletroméstico é usando durante o mês (P) e a potência (W):
+\nC = T x P x W
+\nPara o cálculo do custo (T), multiplicamos o consumo pelo valor do kW/h (V) e divimos o resultado por 1000:
+\nT = (C x V)/1000"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="O que significam as bandeiras?"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="A partir de 2015, as contas de energia passaram a trazer uma novidade: o Sistema de Bandeiras Tarifárias. As bandeiras verde, amarela e vermelha indicam se a energia custa mais ou menos, em função das condições de geração de eletricidade.
+
+\nO sistema possui três bandeiras: verde, amarela e vermelha - as mesmas cores dos semáforos – a e indicam o seguinte:
+
+\nBandeira verde: condições favoráveis de geração de energia. A tarifa não sofre nenhum acréscimo;
+\nBandeira amarela: condições de geração menos favoráveis. A tarifa sofre acréscimo de R$ 0,025 para cada quilowatt-hora (kWh) consumidos;
+\nBandeira vermelha: condições mais custosas de geração. A tarifa sobre acréscimo de R$ 0,055 para cada quilowatt-hora kWh consumidos."
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.aneel.gov.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Como calcular custo a partir do medidor? "
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Para fazer o cálculo do gasto a partir das informações do medidor, anote o valor apresentado no medidor em algum local (papel, bloco de notas, celular), este dado será o Valor Inicial (i). Quando desejar realizar o cálculo, verifique novamente o valor do medidor. Esse será o valor final (f). O custo total (T) será a diferença entre esses valor multiplicada pelo valor do kW/h (kwh). \nT = ( f - i ) x kwh"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Como obter potência a partir do valor do consumo (kWh)?"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Caso seu dispositivo informe apenas o valor do consumo (kWh), é necessário que você faça a conversão para Watts. O valor da potência em Watts (W) é dado pela equação:
+                         \nW = (kwh x horas)/1000"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+            </RelativeLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Como obter potência de eletromésticos?"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Embalagens de dispositivos"
+                            />
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/image_device_boxes"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorHighlight"
+                            android:text="Procure o por valores de kWh ou Watts nas embalagens de dispostivos"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Selo PROCEL"
+                            />
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/selo_procel"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorHighlight"
+                            android:text="Procure o campo do selo PROCEL que informa a potência do dispositivo. Na imagem acima a potência equivale a 90 Watts"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:textColor="@color/textColorHighlight"
+                        android:layout_gravity="left"
+                        android:gravity="left"
+                        android:orientation="vertical">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColor"
+                            android:textStyle="bold"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:text="Amperagem"
+                            />
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/image_amps"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/textColorHighlight"
+                            android:text="Procure o por valores de kWh ou Watts nas embalagens de dispostivos. Não esqueça de configurar adequadamente, na seção 'Configurações' a tensão de sua rede elétrica (110V ou 220V)."
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Procurar  na WEB informações de dispositivos não cadastrados"
+                android:id="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:onClick="searchInWeb"
+                android:textColor="@color/WHITE"
+                android:background="@color/AppThemeColor"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

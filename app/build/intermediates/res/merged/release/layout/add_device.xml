@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_above="@+id/btn_add_device">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/device_name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome do dispositivo: "
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:singleLine="true"
+                android:layout_marginBottom="0dp"/>
+
+            <AutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/device_name"
+                android:layout_below="@+id/device_name_textView"
+                android:textColorHighlight="@color/textColorHighlight"
+                android:textColor="@color/AppThemeColor"
+                android:shadowColor="@android:color/white"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="2dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:imeOptions="actionNext"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/device_pot_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Potência do dispositivo: "
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/device_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="0dp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/device_pot"
+                android:textColorHighlight="@color/textColorHighlight"
+                android:textColor="@color/AppThemeColor"
+                android:shadowColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:inputType="numberDecimal"
+                android:layout_alignLeft="@+id/device_time_textView"
+                android:layout_alignStart="@+id/device_time_textView"
+                android:layout_below="@+id/device_pot_textView"
+                android:layout_toLeftOf="@+id/radio_group"
+                android:layout_toStartOf="@+id/radio_group"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                />
+
+            <TextView
+                android:id="@+id/device_number_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantidade: "
+                android:paddingTop="4dip"
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/device_pot"
+                android:layout_alignLeft="@+id/device_pot_textView"
+                android:layout_alignStart="@+id/device_pot_textView"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:id="@+id/device_number"
+                android:text="1"
+                android:textColorHighlight="@color/textColorHighlight"
+                android:textColor="@color/AppThemeColor"
+                android:shadowColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_below="@+id/device_pot"
+                android:layout_toRightOf="@+id/device_number_textView"
+                android:layout_alignRight="@+id/device_pot"
+                android:layout_alignEnd="@+id/device_pot"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                />
+
+
+            <TextView
+                android:id="@+id/device_time_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempo médio de uso diário: "
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/device_number"
+                android:layout_alignLeft="@+id/device_pot_textView"
+                android:layout_alignStart="@+id/device_pot_textView" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:id="@+id/device_time"
+                android:text="24"
+                android:textColorHighlight="@color/textColorHighlight"
+                android:textColor="@color/AppThemeColor"
+                android:shadowColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_below="@+id/device_time_textView"
+                android:layout_alignLeft="@+id/device_time_textView"
+                android:layout_alignStart="@+id/device_time_textView"
+                android:layout_toStartOf="@+id/radio_group"
+                android:layout_alignRight="@+id/device_time_textView"
+                android:layout_alignEnd="@+id/device_time_textView"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                />
+
+            <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/device_time_textView"
+                android:layout_toRightOf="@+id/device_time_textView"
+                android:layout_toEndOf="@+id/device_time_textView">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Horas"
+                    android:id="@+id/radio_horas"
+                    android:checked="true"
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/AppThemeColor"
+                    android:layout_alignBottom="@+id/device_time"
+                    android:layout_toRightOf="@+id/device_name_textView"
+                    android:layout_toEndOf="@+id/device_name_textView" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Minutos"
+                    android:id="@+id/radio_minutos"
+                    android:checked="false"
+                    android:onClick="onRadioButtonClicked"
+                    android:textColor="@color/AppThemeColor"
+                    android:layout_alignTop="@+id/radio_horas"
+                    android:layout_toRightOf="@+id/device_pot_textView"
+                    android:layout_toEndOf="@+id/device_pot_textView" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/device_period_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Por um período de"
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/device_time"
+                android:layout_alignLeft="@+id/device_period"
+                android:layout_alignStart="@+id/device_period" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:id="@+id/device_period"
+                android:text="30"
+                android:textColorHighlight="@color/textColorHighlight"
+                android:textColor="@color/AppThemeColor"
+                android:shadowColor="@android:color/white"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:layout_alignLeft="@+id/device_time"
+                android:layout_alignStart="@+id/device_time"
+                android:layout_below="@+id/device_period_textView"
+                android:layout_alignRight="@+id/device_time"
+                android:layout_alignEnd="@+id/device_time"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="dias"
+                android:id="@+id/textView3"
+                android:layout_alignTop="@+id/device_period"
+                android:layout_toRightOf="@+id/device_period"
+                android:layout_toEndOf="@+id/device_period" />
+
+            <TextView
+                android:id="@+id/device_room_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecione o cômodo: "
+                android:textColor="@color/AppThemeColor"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/device_period"
+                android:layout_alignLeft="@+id/device_pot_textView"
+                android:layout_alignStart="@+id/device_pot_textView" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerRooms"
+                android:layout_below="@+id/device_room_textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:prompt="@string/spinner_prompt"/>
+
+            <ImageSwitcher
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/imageSwitcher"
+                android:layout_below="@+id/spinnerRooms"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:foregroundGravity="center_horizontal"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_previous"
+                android:id="@+id/btn_previous"
+                android:enabled="false"
+                android:textColor="@color/WHITE"
+                android:background="@color/AppThemeColor"
+                android:onClick="actionPrevious"
+                android:layout_below="@id/imageSwitcher"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="83dip"
+                android:layout_marginStart="83dip"
+                android:layout_marginRight="3dip"
+                />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dip"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_next"
+                android:id="@+id/btn_next"
+                android:textColor="@color/WHITE"
+                android:background="@color/AppThemeColor"
+                android:onClick="actionNext"
+                android:layout_below="@id/imageSwitcher"
+                android:layout_toRightOf="@+id/btn_previous"
+                android:layout_toEndOf="@+id/btn_previous" />
+
+            <Space
+                android:layout_below="@id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_height="@dimen/abc_action_button_min_height_material" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/addDevice_power_unit_spinner"
+                android:layout_alignTop="@+id/device_pot"
+                android:layout_toEndOf="@+id/device_pot"
+                android:layout_alignBottom="@+id/device_pot" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/abc_action_button_min_width_material"
+        android:text="@string/add_new_device"
+        android:id="@+id/btn_add_device"
+        android:textColor="@color/WHITE"
+        android:background="@color/AppThemeColor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onAddDeviceButtonClick"/>
+
+</RelativeLayout>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/tips_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip8">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="0dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Desligue o Stand-by e poupe para a geladeira"
+                        android:id="@+id/header_tip8"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Aparelhos eletrônicos desligados apenas pelo controle remoto consomem energia suficiente para manter a geladeira funcionando. Quando um aparelho eletrônico é desligado pelo controle remoto, fica em stand by, ou seja, pronto para ser acionado de forma imediata pelo controle remoto. Para isso, é necessário manter um circuito eletrônico funcionando consumindo energia. A energia necessária para manter ligado o stand by usado na operação do controle remoto de duas TVs, dois equipamentos para acesso à TV a cabo, um tocador de DVD e um aparelho de som é equivalente à necessária para manter uma geladeira de duas portas funcionando. Economize energia e dinheiro desligando os aparelhos eletrônicos no botão ou na tomada para que não fiquem em stand by!"
+                        android:id="@+id/body_tip8"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Tire da tomada"
+                        android:id="@+id/header_tip1"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Desligue o seu carregador de celular da tomada quando não estiver recarregando a bateria do aparelho. O carregador de celular consome energia, mesmo que o telefone não esteja conectado a ele. Se 100 funcionários de uma empresa deixarem seus carregadores na tomada durante um mês sem uso, o desperdício de energia seria suficiente para manter um computador e um monitor usados no trabalho funcionando por um ano!"
+                        android:id="@+id/body_tip1"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip2">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Prefira lâmpada eficientes"
+                        android:id="@+id/header_tip2"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Elas consomem até 75% de energia e duram aproximadamente 10 vezes mais que lâmpadas convencionais"
+                        android:id="@+id/body_tip2"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip3">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Cuide da geladeira"
+                        android:id="@+id/header_tip3"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Faça a revisão da vedação de sua geladeira. Problemas na vedação de borracha na porta de sua geladeira podem fazer com que o frio saia e o calor de fora entre, o que exigirá que ela trabalhe mais para resfriar. Fique atento a este detalhe e evite o gasto desnecessário de energia elétrica."
+                        android:id="@+id/body_tip3"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip4">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Banhos mais curtos"
+                        android:id="@+id/header_tip4"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Menos um minuto de banho economiza quinze dias de Itaipu. Se cada um dos brasileiros diminuísse em apenas 1 minuto o seu tempo diário de banho no chuveiro, a energia economizada em um ano equivaleria a quinze dias de operação da usina de Itaipu em sua geração máxima."
+                        android:id="@+id/body_tip4"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip5">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Lâmpadas de LED economizam o que custam"
+                        android:id="@+id/header_tip5"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Lâmpadas LED são mais caras, mas duram muito mais e recuperam o investimento em pouco tempo É verdade que as modernas lâmpadas LED são mais caras, mas elas consomem muito menos energia e duram mais tempo que as demais: a LED dura até 14 anos, o que significa 3 vezes mais que as fluorescentes e 25 vezes mais que as incandescentes. Além disso, as LED são mais econômicas, consumindo quase 10 vezes menos energia do que uma incandescente e a metade do que uma fluorescente consome para oferecer a mesma luminosidade. Somados esses dois benefícios, o preço maior pago por uma LED é recuperado em 11,5 meses (quando substitui uma incandescente) e em 36,6 meses (pouco mais de 3 anos, quando substitui uma fluorescente).."
+                        android:id="@+id/body_tip5"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip6">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Poupe energia e junte R$ 26 mil"
+                        android:id="@+id/header_tip6"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Economizar 25% da energia elétrica gasta pode render quase 26 mil reais. Caso você gaste em torno de R$ 100,00 de luz por mês, se reduzir o consumo em 25% e colocar essa economia em uma poupança todos os meses, você acumulará em 20 anos quase R$ 26 mil!"
+                        android:id="@+id/body_tip6"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/tip7">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="8dp"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Lâmpadas eficientes, menos termelétricas"
+                        android:id="@+id/header_tip7"
+                        android:layout_marginTop="6dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/textColor"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/textColor"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="Trocar apenas uma lâmpada pode evitar a construção de 112 termelétricas. Se todas as famílias brasileiras trocassem apenas uma lâmpada incandescente comum de 60W de suas casas por uma fluorescente econômica de 12W, com a mesma luminosidade, a economia total de energia evitaria a construção de 112 novas usinas termelétricas no país."
+                        android:id="@+id/body_tip7"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:textColor="@color/textColorHighlight"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:background="@color/SlateGray"
+                        android:layout_height="wrap_content"
+                        android:text="Fonte: www.meubolsoemdia.com.br"
+                        android:textColor="@color/LIGHT_GRAY"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lists_purple"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

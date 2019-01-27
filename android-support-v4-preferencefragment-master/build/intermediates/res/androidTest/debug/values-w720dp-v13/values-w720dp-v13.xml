@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/matheusgoes/OneDrive/Informática/AndroidStudioProjects/MinhaContadeLuz/android-support-v4-preferencefragment-master/build/intermediates/bundles/debug/res/values-w720dp-v13/values-w720dp-v13.xml -->
+    <eat-comment/>
+    <dimen name="preference_fragment_padding_side">32dp</dimen>
+</resources>

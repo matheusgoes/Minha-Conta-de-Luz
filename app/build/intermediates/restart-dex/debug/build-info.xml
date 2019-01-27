@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="14803050512660"
+    token="-4775609173497227758"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="1419" />
+    <task
+        name="instant-run-dex"
+        duration="2617" />
+    <task
+        name="instant-run-transform"
+        duration="262" />
+    <task
+        name="verifier"
+        duration="66" />
+
+    <artifact
+        location="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="13587332808232" >
+        <artifact
+            location="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="13920694559695"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/builds/debug/13920694559695/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="14803050512660"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Volumes/Macintosh HD/matheusgoes/Documentos/Informatica/AndroidStudioProjects/MinhaContadeLuz/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

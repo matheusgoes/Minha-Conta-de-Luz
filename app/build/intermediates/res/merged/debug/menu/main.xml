@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <!---<item android:id="@+id/addDevice" android:title="@string/addDevice" android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="withText|ifRoom" /> -->
+    <item android:id="@+id/action_calc_bill" android:title="@string/action_calc_bill" android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="withText|ifRoom" />
+    <item android:id="@+id/action_settings" android:title="@string/action_settings" android:icon="@drawable/ic_action_settings"
+        app:showAsAction="withText|ifRoom" />
+</menu>

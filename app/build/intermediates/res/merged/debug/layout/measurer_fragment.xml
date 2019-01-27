@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/initial_measuare"
+        android:hint="Marcação inicial"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/final_measuare"
+        android:hint="Marcação final"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/WHITE"
+        android:background="@color/AppThemeColor"
+        android:onClick="onMeasurerCalculationClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/measurer_total"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/DarkRed"
+        android:layout_marginTop="20dp"
+        android:alpha="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Esses valores devem ser compatíveis com o de sua conta de energia. Caso não sejam, verifique nas configurações o valor do kW/h e a cor da bandeira."
+        android:id="@+id/measurer_inf"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/DarkSlateGray"
+        android:layout_marginTop="30dp"
+        android:alpha="0"/>
+
+
+</LinearLayout>
